@@ -3,14 +3,14 @@
 
 section.panels-3wFtMD::before {
   display: block;
-  content: "Your theme file is outdated! Update it by downloading the latest version from: https://github.com/PlusInsta/ discord-plus/releases";
+  content: "Your theme file is outdated! Update it by downloading the latest version from: (URL here.)";
   width: 240px;
   height: 100px;
   background-color: #802060;
   color: white;
   padding: 10px;
   margin: 5px;
-  font-family: Roboto, sans-serif;
+  font-family: Input, sans-serif;
   font-size: 16px;
   border-radius: 10px;
 }
@@ -21,10 +21,12 @@ section.panels-3wFtMD::before {
   --dplus-accent-color-hue: 320;
   --dplus-accent-color-saturation: 60%;
   --dplus-accent-color-lightness: 31%;
+  
   --dplus-foreground-color-hue-base: 210;
   --dplus-foreground-color-hue-links: 197;
   --dplus-foreground-color-saturation-amount: 1;
   --dplus-foreground-color-lightness-amount: 1;
+  
   --dplus-background-color-hue: 320;
   --dplus-background-color-saturation-amount: 1;
   --dplus-background-color-lightness-amount: 1;
@@ -49,9 +51,9 @@ section.panels-3wFtMD::before {
 }
 
 :root {
-  --dplus-font-ui: 'Poppins';
-  --dplus-font-body: 'Roboto';
-  --dplus-font-header: 'Righteous';
+  --dplus-font-ui: 'Input';
+  --dplus-font-body: 'Input';
+  --dplus-font-header: 'Input';
   --dplus-radius-ui: 10px;
   --dplus-radius-avatar: 20%;
   --dplus-radius-server: 20%;
